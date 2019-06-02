@@ -34,7 +34,8 @@ bootRun {
 }
 
 dependencies {
-    compile group: 'club.minnced', name: 'magma', version: magmaVersion
+    // compile group: 'club.minnced', name: 'magma', version: magmaVersion
+    compile 'com.github.SideProjectGuys:Magma:2ca356a0dfaf02023f34fbbb159f6ed094b6be6f'
     compile group: 'com.sedmelluq', name: 'lavaplayer', version: lavaplayerVersion
     compile group: 'com.sedmelluq', name: 'jda-nas', version: jdaNasVersion
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: kotlinVersion
