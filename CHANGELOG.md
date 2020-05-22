@@ -3,6 +3,34 @@
 Each release usually includes various fixes and improvements.
 The most noteworthy of these, as well as any features and breaking changes, are listed here.
 
+## v3.3.1
+* Update Magma and Lavaplayer.
+* Added TrackStartEvent event.
+* Added retryLimit configuration option.
+* Use a single AudioPlayerManager for all WS connections, reducing overhead.
+* Docker images now use Zulu JDK 13 to mitigate TLS 1.3 problems.
+
+Contributors:
+[@Frederikam](https://github.com/Frederikam),
+[@duncte123](https://github.com/duncte123),
+[@ByteAlex](https://github.com/ByteAlex), and
+[@Xavinlol](https://github.com/Xavinlol)
+
+## v3.3
+
+Officially limit Lavalink to JRE 11 and up. Magma has long been having issues with older versions.
+
+## v3.2.2
+* IP rotation system for getting around certain ratelimits.
+* Update Lavaplayer to 1.3.32.
+* Docker container now uses a non-root user.
+
+Contributors:
+[@Frederikam](https://github.com/Frederikam),
+[@ByteAlex](https://github.com/ByteAlex),
+[@duncte123](https://github.com/duncte123), and
+[@james7132](https://github.com/james7132)
+
 ## v3.2.1.1
 * Updated Lavaplayer to 1.3.19. This release includes a patch which fixes loading youtube URLs. 
 https://github.com/sedmelluq/lavaplayer/pull/199
